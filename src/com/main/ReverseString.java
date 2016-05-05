@@ -6,7 +6,6 @@ public class ReverseString {
 	{
 		String str1 = new String("This is cool");
 		
-		int length = str1.length();
 		char[] array = str1.toCharArray();
 		System.out.println("Original String");
 		System.out.println(array);

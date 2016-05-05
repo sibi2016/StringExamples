@@ -5,9 +5,10 @@ public class PalindromeCheck {
 	
 	public static void main(String[] args)
 	{
-		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter a word to check for Palindrome ");
+		Scanner sc = new Scanner(System.in);
 		String original = sc.nextLine();
+		sc.close();
 		//System.out.print(original);
 		int length = original.length();
 		
