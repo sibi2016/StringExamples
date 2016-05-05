@@ -8,6 +8,5 @@ public class ReplaceString {
 		System.out.println("Original string: "+str);
 		String newStr = str.replace(str.substring(7), "Science");
 		System.out.println("Replaced String: "+newStr);
-		
 	}
 }
