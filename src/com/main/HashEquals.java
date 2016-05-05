@@ -8,7 +8,8 @@ public class HashEquals {
 		StringBuffer str2 = str1.append("Sibi");
 		
 		System.out.println(str1.hashCode());
-		  
+
 		System.out.println(str2.hashCode());
 	}
 }
+
